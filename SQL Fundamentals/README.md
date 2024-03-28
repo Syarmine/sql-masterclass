@@ -1,6 +1,6 @@
 # SQL Fundamentals for Analyst and Data Analyst
 
-This site is curated for my SQL Fundamentals for Analyst and Data Analyst. It contains several references that I find useful across over the internet. While it is not an exhaustive list, there are several links I find it high-yield and extremely useful for beginners in learning SQL. 
+This site is curated for my SQL Fundamentals for Analyst and Data Analyst sharing session. It contains several references that I find useful across over the internet. While it is not an exhaustive list, there are several links I find it high-yield and extremely useful for beginners in learning SQL. 
 
 
 🎯 What'll you get from this session:
