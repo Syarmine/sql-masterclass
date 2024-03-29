@@ -4,11 +4,11 @@ Welcome to the SQL Fundamentals for Analyst and Data Analyst Workshop, a complet
 
 This site is curated for my SQL Fundamentals for Analyst and Data Analyst sharing session. It contains several references that I find useful across over the internet. While it is not an exhaustive list, there are several links I find it high-yield and extremely useful for beginners in learning SQL. 
 
-Prerequisites - Before you attend the workshop, download all the scripts and files for hands-on exercises with one of the following methods:
-• Clone the workshop repo with git clone https://github.com/microsoft/sqlworkshops-sql2022workshop.git. Using this method, the scripts will be under folders by module 
-inside sqlworkshops-sql2022workshop\sql2022workshop. You can download git for windows from https://gitforwindows.org.
-• download a zip file of the scripts from https://github.com/microsoft/sqlworkshops-sql2022workshop/archive/refs/heads/main.zip. You will need to expand the zip file after 
-downloading. Using this method the scripts will be under folders by module inside \sqlworkshops-sql2022workshop-main\sql2022workshop
+**Prerequisites** - Before you attend the workshop, download the files and the scripts for hands-on exercises with one of the following methods:
+- Clone the workshop repo with **git clone** https://github.com/Syarmine/SQL-Masterclass.git. Using this method, the scripts will be under folders by module 
+inside sqlworkshops-sql2022workshop\sql2022workshop. You can download git for windows from https://gitforwindows.org or using Github for Dekstop.
+- or download the files and scripts one by one from this page. You will need to expand the zip file after downloading.
+- A virtual machine or computer running Windows 10, Windows 11, with at least 4 CPUs and 8Gb RAM. You will need Administrator rights on the virtual machine or computer. It is recommended to use your own personal laptop, **do not** use company laptop or owned by others.
 
 
 🎯 What'll you get from this session:
