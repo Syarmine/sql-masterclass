@@ -16,21 +16,23 @@ inside sqlworkshops-sql2022workshop\sql2022workshop. You can download git for wi
    * Install SQL Server 2022: https://go.microsoft.com/fwlink/p/?linkid=2215158&clcid=0x4409&culture=en-my&country=my
       * Choose basic installation
     * Install SQL Server Management Studio: https://aka.ms/ssmsfullsetup
+      * [Connecting to your database engine](https://learn.microsoft.com/en-us/sql/relational-databases/lesson-1-connecting-to-the-database-engine?view=sql-server-ver16) 
     * Tools: SQL Server Management Studio, SQL Server 2022, Excel, PowerBI (optional)
     * PC Requirement: https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16
 * How to create a table: learning the logic - things are more similar than they are different (Excel, PowerBI, SQL)
     * Create a table using Excel
     * Create a table using PowerBI
-    * Create a table using SQL Server
+    * [Create a table using SQL Server](https://learn.microsoft.com/en-us/sql/t-sql/lesson-1-creating-database-objects?view=sql-server-ver16)
 * Understanding scripts for database creation and administration
     * Download [popular databases](https://github.com/microsoft/sql-server-samples/tree/master/samples/databases) used in most MOOCs/courses - Adventureworks, Contosso, Northwind and Wide World Importers
-* Connect SQL Server to Excel and PowerBI
+* Connect SQL Server to Excel and PowerBI 
     * Connect your SQL Server data to Excel and PowerBI
     * Basic SQL Query
 * Expand learning curve using MOOCs and Github for learning
     * Documentation:
         * [SQL Server Management Studio Documentation](https://learn.microsoft.com/en-us/sql/sql-server/?view=sql-server-ver16)
         * [Microsoft SQL Documentation](https://learn.microsoft.com/en-us/sql/?view=sql-server-ver16)
+        * [Educational SQL Resources](https://learn.microsoft.com/en-us/sql/sql-server/educational-sql-resources?view=sql-server-ver16)
     * Query Cheatsheet:
         - [SQL Basic Cheatsheet (Datacamp)](https://images.datacamp.com/image/upload/v1675360372/Marketing/Blog/SQL_Basics_For_Data_Science.pdf)
         - [SQL Quick Access (W3 Schools)](https://www.w3schools.com/sql/sql_quickref.asp)
