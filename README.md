@@ -33,6 +33,7 @@ inside sqlworkshops-sql2022workshop\sql2022workshop. You can download git for wi
         * [SQL Server Management Studio Documentation](https://learn.microsoft.com/en-us/sql/sql-server/?view=sql-server-ver16)
         * [Microsoft SQL Documentation](https://learn.microsoft.com/en-us/sql/?view=sql-server-ver16)
         * [Educational SQL Resources](https://learn.microsoft.com/en-us/sql/sql-server/educational-sql-resources?view=sql-server-ver16)
+        * [Microsoft Tutorial](https://learn.microsoft.com/en-us/sql/ssms/quickstarts/ssms-connect-query-sql-server?view=sql-server-ver16)
     * Query Cheatsheet:
         - [SQL Basic Cheatsheet (Datacamp)](https://images.datacamp.com/image/upload/v1675360372/Marketing/Blog/SQL_Basics_For_Data_Science.pdf)
         - [SQL Quick Access (W3 Schools)](https://www.w3schools.com/sql/sql_quickref.asp)
