@@ -25,6 +25,7 @@ inside sqlworkshops-sql2022workshop\sql2022workshop. You can download git for wi
     * [Create a table using SQL Server](https://learn.microsoft.com/en-us/sql/t-sql/lesson-1-creating-database-objects?view=sql-server-ver16)
 * Understanding scripts for database creation and administration
     * Download [popular databases](https://github.com/microsoft/sql-server-samples/tree/master/samples/databases) used in most MOOCs/courses - Adventureworks, Contosso, Northwind and Wide World Importers
+    * Download [AdventureWorks-oltp-install-script.zip](https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorks-oltp-install-script.zip) and extract the zip file to your folder (i.e: C:\Samples\AdventureWorks) folder.
 * Connect SQL Server to Excel and PowerBI 
     * Connect your SQL Server data to Excel and PowerBI
     * Basic SQL Query
