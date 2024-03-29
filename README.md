@@ -2,7 +2,7 @@
 
 Welcome to the SQL Fundamentals for Analyst and Data Analyst Workshop, a complete hands-on interactive experience to learn the basics of SQL Server Management Studio.
 
-This site is curated for my SQL Fundamentals for Analyst and Data Analyst sharing session. It contains several references that I find useful across over the internet. While it is not an exhaustive list, there are several links I find it high-yield and extremely useful for beginners in learning SQL. 
+This site is curated for my SQL Fundamentals for Analyst and Data Analyst sharing session. It contains several references that I find useful across over the internet, and would love to share it with other learners. While it is not an exhaustive list, this is a repository with high-yield links sites that will help beginners in learning SQL. 
 
 **Prerequisites** - Before you attend the workshop, download the files and the scripts for hands-on exercises with one of the following methods:
 - Clone the workshop repo with **git clone** https://github.com/Syarmine/SQL-Masterclass.git. Using this method, the scripts will be under folders by module 
