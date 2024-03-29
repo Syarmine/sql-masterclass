@@ -12,9 +12,11 @@ inside sqlworkshops-sql2022workshop\sql2022workshop. You can download git for wi
 
 
 🎯 What'll you get from this session:
-* Learn how to install SQL Server Management Studio
+* Learn how to install SQL Server Management Studio and SQL Server
     * Install SQL Server Management Studio: https://aka.ms/ssmsfullsetup
-    * Tools: SQL Server Management Studio, Excel, PowerBI (optional)
+    * Install SQL Server 2022: https://go.microsoft.com/fwlink/p/?linkid=2215158&clcid=0x4409&culture=en-my&country=my
+       * Choose basic installation
+    * Tools: SQL Server Management Studio, SQL Server 2022, Excel, PowerBI (optional)
     * PC Requirement: https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16
 * How to create a table: learning the logic - things are more similar than they are different (Excel, PowerBI, SQL)
     * Create a table using Excel
