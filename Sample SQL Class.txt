@@ -1,0 +1,143 @@
+-- Create the database named 'Market'
+CREATE DATABASE Market
+
+-- Switch the context to the 'Market' database
+USE Market,
+
+-- Create Customers table
+CREATE TABLE Customers (
+    CustomerID INT PRIMARY KEY,
+    FirstName NVARCHAR(50),
+    LastName NVARCHAR(50),
+    State NVARCHAR(50),
+    Age INT
+);
+
+-- Insert sample data into Customers table
+INSERT INTO Customers (CustomerID, FirstName, LastName, State, Age)
+VALUES 
+(1, 'Amir', 'Abdullah', 'Selangor', 28),
+(2, 'Nurul', 'Hassan', 'Johor', 35),
+(3, 'Ahmad', 'Ibrahim', 'Penang', 42),
+(4, 'Siti', 'Yusof', 'Perak', 25),
+(5, 'Fatin', 'Lim', 'Sabah', 31),
+(6, 'Hafiz', 'Tan', 'Sarawak', 39),
+(7, 'Farah', 'Wong', 'Kelantan', 47),
+(8, 'Mohamad', 'Ng', 'Kedah', 33),
+(9, 'Nor', 'Lee', 'Terengganu', 29),
+(10, 'Khairul', 'Teh', 'Pahang', 36),
+(11, 'Aisyah', 'Chin', 'Melaka', 24),
+(12, 'Amirah', 'Tan', 'Negeri Sembilan', 30),
+(13, 'Amin', 'Ooi', 'Perlis', 43),
+(14, 'Adib', 'Goh', 'Labuan', 27),
+(15, 'Nurul', 'Ali', 'Putrajaya', 32),
+(16, 'Azizah', 'Lim', 'Selangor', 38),
+(17, 'Syafiq', 'Tan', 'Johor', 26),
+(18, 'Nurul', 'Liew', 'Penang', 34),
+(19, 'Haziq', 'Kaur', 'Perak', 40),
+(20, 'Aina', 'Wong', 'Sabah', 23);
+
+-- Create Products table
+CREATE TABLE Products (
+    ProductID INT PRIMARY KEY,
+    ProductName NVARCHAR(100),
+    Price DECIMAL(10, 2)
+);
+
+-- Insert sample data into Products table
+INSERT INTO Products (ProductID, ProductName, Price)
+VALUES 
+(1, 'Roti John', 5.50),
+(2, 'Murtabak', 7.00),
+(3, 'Ayam Percik', 8.50),
+(4, 'Nasi Kerabu', 10.00),
+(5, 'Popiah Basah', 2.00),
+(6, 'Kebab', 6.00),
+(7, 'Air Tebu', 3.00),
+(8, 'Keropok Lekor', 4.00),
+(9, 'Putu Piring', 1.50),
+(10, 'Satay', 1.20),
+(11, 'Kuih Cara', 0.80),
+(12, 'Soto Ayam', 6.50),
+(13, 'Lemang', 5.00),
+(14, 'Cendol', 3.50),
+(15, 'Apam Balik', 2.50),
+(16, 'Kuih Lopes', 1.00),
+(17, 'Lontong', 4.50),
+(18, 'Sup Tulang', 9.00),
+(19, 'Nasi Lemak', 6.00),
+(20, 'Teh Tarik', 2.00);
+
+-- Create Orders table
+CREATE TABLE Orders (
+    OrderID INT PRIMARY KEY,
+    OrderDate DATETIME,
+    CustomerID INT,
+    ProductID INT,
+    FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID),
+    FOREIGN KEY (ProductID) REFERENCES Products(ProductID)
+);
+
+-- Insert sample data into Orders table
+INSERT INTO Orders (OrderID, OrderDate, CustomerID, ProductID)
+VALUES 
+(1, '2024-03-31 10:15:00', 1, 5),
+(2, '2024-03-31 11:20:00', 2, 9),
+(3, '2024-03-31 12:30:00', 3, 14),
+(4, '2024-03-31 13:45:00', 4, 10),
+(5, '2024-03-31 14:00:00', 5, 19),
+(6, '2024-03-31 15:10:00', 6, 3),
+(7, '2024-03-31 16:20:00', 7, 11),
+(8, '2024-03-31 17:30:00', 8, 16),
+(9, '2024-03-31 18:45:00', 9, 2),
+(10, '2024-03-31 19:00:00', 10, 8);
+
+
+--JOINS
+--INNER JOINS
+--An inner join will return rows where there is at least one match in both tables.
+SELECT Orders.OrderID, Orders.OrderDate, Customers.FirstName, Customers.LastName, Products.ProductName, Products.Price
+FROM Orders
+INNER JOIN Customers ON Orders.CustomerID = Customers.CustomerID
+INNER JOIN Products ON Orders.ProductID = Products.ProductID;
+
+--LEFT JOINS
+--A left join returns all rows from the left table (the first table mentioned in the query) and the matched rows from the right table. If there is no match, the result is NULL on the right side.
+SELECT Orders.OrderID, Orders.OrderDate, Customers.FirstName, Customers.LastName, Products.ProductName, Products.Price
+FROM Orders
+LEFT JOIN Customers ON Orders.CustomerID = Customers.CustomerID
+LEFT JOIN Products ON Orders.ProductID = Products.ProductID;
+
+--RIGHTJOINS
+--A right join returns all rows from the right table (the second table mentioned in the query) and the matched rows from the left table. If there is no match, the result is NULL on the left side.
+SELECT Orders.OrderID, Orders.OrderDate, Customers.FirstName, Customers.LastName, Products.ProductName, Products.Price
+FROM Orders
+RIGHT JOIN Customers ON Orders.CustomerID = Customers.CustomerID
+RIGHT JOIN Products ON Orders.ProductID = Products.ProductID;
+
+--FULLOUTER
+--A full outer join returns all rows when there is a match in either the left or right table. If there is no match, the result is NULL on both sides.
+SELECT Orders.OrderID, Orders.OrderDate, Customers.FirstName, Customers.LastName, Products.ProductName, Products.Price
+FROM Orders
+FULL OUTER JOIN Customers ON Orders.CustomerID = Customers.CustomerID
+FULL OUTER JOIN Products ON Orders.ProductID = Products.ProductID;
+
+
+--FUNCTIONS
+--Example 1: Using GROUP BY with AVG
+--This query calculates the average age of customers for each state.
+SELECT State, AVG(Age) AS AverageAge
+FROM Customers
+GROUP BY State;
+
+--Example 2: Using GROUP BY with SUM
+--This query calculates the total price of orders for each product.
+SELECT ProductID, SUM(Price) AS TotalPrice
+FROM Orders
+JOIN Products ON Orders.ProductID = Products.ProductID
+GROUP BY ProductID;
+
+
+
+
+
