@@ -19,6 +19,9 @@ inside sqlworkshops-sql2022workshop\sql2022workshop. You can download git for wi
       * [Connecting to your database engine](https://learn.microsoft.com/en-us/sql/relational-databases/lesson-1-connecting-to-the-database-engine?view=sql-server-ver16) 
     * Tools: SQL Server Management Studio, SQL Server 2022, Excel, PowerBI (optional)
     * PC Requirement: https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16
+    * Video installation instruction: 
+        * Install SQL Server 2022 and SSMS 20: https://www.youtube.com/watch?v=25r0w86YPwY
+        * Connect to SQL Server using SSMS: https://www.youtube.com/watch?v=FB7vfufL4gE
 * How to create a table: learning the logic - things are more similar than they are different (Excel, PowerBI, SQL)
     * Create a table using Excel
     * Create a table using PowerBI
