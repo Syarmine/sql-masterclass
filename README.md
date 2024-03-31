@@ -50,7 +50,7 @@ inside sqlworkshops-sql2022workshop\sql2022workshop. You can download git for wi
         - [SQL Tutorial for beginners - MySQL (5 hours) - (freecodecamp)](https://www.youtube.com/watch?v=-fW2X7fh7Yg)
         - [Google Data Analytics Certificate - Process Data from Dirty to Clean](https://www.coursera.org/learn/process-data?specialization=google-data-analytics)
     * Certifications (optional)
-        - [Microsoft Azure Data Fundamentals](https://learn.microsoft.com/en-us/credentials/certifications/azure-database-administrator-associate/?practice-assessment-type=certification)
+        - [Microsoft Azure Data Fundamentals](https://learn.microsoft.com/en-us/credentials/certifications/azure-data-fundamentals/?practice-assessment-type=certification)
         - [Microsoft Azure Database Administrator Associate](https://learn.microsoft.com/en-us/credentials/certifications/azure-database-administrator-associate/?practice-assessment-type=certification)
         - [Google Data Analytics Certificate - Process Data from Dirty to Clean](https://www.coursera.org/learn/process-data?specialization=google-data-analytics)
         - [Oracle Database Certification](https://academy.oracle.com/en/solutions-curriculum-database.html)
