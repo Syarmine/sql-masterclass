@@ -55,4 +55,14 @@ inside sqlworkshops-sql2022workshop\sql2022workshop. You can download git for wi
         - [Google Data Analytics Certificate - Process Data from Dirty to Clean](https://www.coursera.org/learn/process-data?specialization=google-data-analytics)
         - [Oracle Database Certification](https://academy.oracle.com/en/solutions-curriculum-database.html)
 
+    * Practice Your SQL
+        + W3 Schools: https://w3schools.com/sql/default.asp
+        + SQLZoo: 
+        https://sqlzoo.net/wiki/SQL_Tutorial
+        + SQLBolt: 
+        https://sqlbolt.com
+        + Stratascratch: 
+        https://platform.stratascratch.com/coding?code_type=5
+        + Leetcode: https://leetcode.com/studyplan/top-sql-50/ (need sign in)
+
 
