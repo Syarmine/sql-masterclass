@@ -1,12 +1,26 @@
-# SQL Fundamentals for Analyst and Data Analyst
+# SQL Fundamentals for Beginners
 
-Welcome to the SQL Fundamentals for Analyst and Data Analyst Workshop, a complete hands-on interactive experience to learn the basics of SQL Server Management Studio.
+Welcome to the SQL Fundamentals for Beginners, a complete hands-on interactive experience to learn the basics of SQL, focusing on the practical and different flavors of SQL.
 
-This site is curated for my SQL Fundamentals for Analyst and Data Analyst sharing session. It contains several references that I find useful across over the internet, and would love to share it with other learners. While it is not an exhaustive list, this is a repository with high-yield links sites that will help beginners in learning SQL. 
+This site is curated for the SQL Fundamentals for Beginnners sharing session. It contains several references that I find useful across over the internet, and would love to share it with other learners. While it is not an exhaustive list, this is a repository with high-yield links sites that will help beginners in learning SQL. 
 
-**Prerequisites** - Before you attend the workshop, download the files and the scripts for hands-on exercises with one of the following methods:
-- Clone the workshop repo with **git clone** https://github.com/Syarmine/SQL-Masterclass.git. Using this method, the scripts will be under folders by module 
-inside sqlworkshops-sql2022workshop\sql2022workshop. You can download git for windows from https://gitforwindows.org or using Github for Dekstop.
+As of August 2024, I have added several changes to the workshop, including:
+- include additional SQL flavors such as [DuckDB](https://duckdb.org/), [PostgreSQL](https://www.postgresql.org/), [MySQL](https://www.mysql.com/), [SQLite](https://www.sqlite.org/), and [MongoDB](https://www.mongodb.com/) (this is NoSQL)
+- include additional Graphical User Interface (GUI) tools such as pgAdmin, SQL Server Management Studio (SSMS), MongoDB Compass, [DBeaver](https://dbeaver.io/download/), and SQLiteStudio
+
+The following are the popular databases based on SQL flavors:
+- SQL Server T-SQL: [AdventureWorks](https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorks-oltp-install-script.zip)
+- PostgreSQL: [DVDrental](https://www.postgresqltutorial.com/wp-content/uploads/2019/05/dvdrental.zip)
+- MySQL: [Sakila](https://downloads.mysql.com/docs/sakila-db.tar.gz)
+- DuckDB: [DuckDB](https://motherduck.com/docs/getting-started/sample-data-queries/attach-sample-database/)
+- SQLite: [Chinook](https://www.sqlitetutorial.net/wp-content/uploads/2018/03/chinook.zip)
+- MongoDB: [Sample Dataset](https://www.mongodb.com/docs/atlas/sample-datasets/current/sample-datasets-sakila/)
+
+
+**Prerequisites** 
+- Ensure your personal laptop is ready for the workshop, download the files and the scripts for hands-on exercises with one of the following methods:
+- Clone the workshop repo with **git clone** https://github.com/Syarmine/SQL-Masterclass.git. 
+-  Using this method, the scripts will be under folders by module inside sqlworkshops-sql2022workshop\sql2022workshop. You can download git for windows from https://gitforwindows.org or using Github for Dekstop.
 - or download the files and scripts one by one from this page. You will need to expand the zip file after downloading.
 - A virtual machine or computer running Windows 10, Windows 11, with at least 4 CPUs and 8Gb RAM. You will need Administrator rights on the virtual machine or computer. It is recommended to use your own personal laptop, **do not** use company laptop or owned by others.
 
