@@ -16,6 +16,9 @@ The following are the popular databases based on SQL flavors:
 - SQLite: [Chinook](https://www.sqlitetutorial.net/wp-content/uploads/2018/03/chinook.zip)
 - MongoDB: [Sample Dataset](https://www.mongodb.com/docs/atlas/sample-datasets/current/sample-datasets-sakila/)
 
+## Motivation to share
+
+I have been using SQL for over 3 years, and I still learn something new every day. I remember for every new concept and tools, I need to spend hours to understand the concept and how it works across different SQL flavors. I love to share my knowledge with others, and I hope you find this repository helpful.
 
 **Prerequisites** 
 - Ensure your personal laptop is ready for the workshop, download the files and the scripts for hands-on exercises with one of the following methods:
